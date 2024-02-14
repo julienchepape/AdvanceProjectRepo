@@ -10,6 +10,4 @@ public interface CardInterface {
 
 	void shuffleCards(List<Card> cardList);
 
-	
-
 }

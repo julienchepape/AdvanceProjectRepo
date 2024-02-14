@@ -9,13 +9,10 @@ package src.io.advance.fivecarddraw.enumeration;
  *
  * @author Julien Chepape
  */
-public enum SuitType  {
-    
-    SPADE("\u2660"),  
-    HEART ("\u2663"),  
-    DIAMOND("\u2666"),  
-    CLUB("\u2663");  
-    
+public enum SuitType {
+
+	SPADE("\u2660"), HEART("\u2663"), DIAMOND("\u2666"), CLUB("\u2663");
+
 	private final String suit;
 
 	private SuitType(String suit) {
